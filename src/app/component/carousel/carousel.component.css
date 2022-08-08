@@ -1,12 +1,104 @@
-.hight-width{
-    position: relative;
-    margin-top: 15px;  
-    height: 420px; 
-    width: 100%;   
+.hight-width {
+  position: relative;
+  margin-top: 15px;
+  height: 420px;
+  width: 100%;
 }
 
-button span{
+button span {
+  background-color: rgba(3, 3, 3, 0.56);
+  padding: 30px;
+  border-radius: 50%;
+}
+
+@media only screen and (max-width: 1200px) {
+  .hight-width {
+    position: relative;
+    margin-top: 15px;
+    height: 420px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .hight-width {
+    position: relative;
+    margin-top: 15px;
+    height: 320px;
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 900px) {
+  .hight-width {
+    position: relative;
+    margin-top: 15px;
+    height: 260px;
+    width: 100%;
+  }
+  button span {
     background-color: rgba(3, 3, 3, 0.56);
-    padding: 30px;
+    padding: 28px;
     border-radius: 50%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .hight-width {
+    position: relative;
+    margin-top: 15px;
+    height: 220px;
+    width: 100%;
+  }
+  button span {
+    background-color: rgba(3, 3, 3, 0.56);
+    padding: 24px;
+    border-radius: 50%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .hight-width {
+    position: relative;
+    margin-top: 15px;
+    height: 200px;
+    width: 100%;
+  }
+  button span {
+    background-color: rgba(3, 3, 3, 0.56);
+    padding: 18px;
+    border-radius: 50%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .hight-width {
+    position: relative;
+    margin-top: 15px;
+    height: 180px;
+    width: 100%;
+  }
+
+  button span {
+    background-color: rgba(3, 3, 3, 0.56);
+    padding: 13px;
+    margin: 0px 20px;
+    border-radius: 50%;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .hight-width {
+    position: relative;
+    margin-top: 15px;
+    height: 160px;
+    width: 100%;
+  }
+
+  button span {
+    background-color: rgba(3, 3, 3, 0.56);
+    padding: 10px;
+    margin: 0px 20px;
+    border-radius: 50%;
+  }
 }
